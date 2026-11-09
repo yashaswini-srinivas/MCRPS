@@ -1,0 +1,58 @@
+{
+    "metadata": {
+        "patient_id": "P_93714",
+        "timestamp": "2026-08-27T14:46:23.421233",
+        "system_version": "MCRPS-v1.0"
+    },
+    "clinical_assessment": {
+        "dcrs": 0.26,
+        "risk_level": "LOW",
+        "highest_risk_complication": "Nephropathy",
+        "highest_risk_score": 0.33,
+        "complication_risks": {
+            "Neuropathy": 0.13,
+            "Nephropathy": 0.33,
+            "Retinopathy": 0.05,
+            "Foot Ulcer": 0.09,
+            "Cardiovascular": 0.12
+        },
+        "shap_top5_features": {
+            "neuropathy": [
+                [
+                    "Age",
+                    0.35
+                ],
+                [
+                    "HbA1c",
+                    0.25
+                ],
+                [
+                    "Sex",
+                    0.18
+                ],
+                [
+                    "Creatinine",
+                    0.12
+                ],
+                [
+                    "Race",
+                    0.1
+                ]
+            ]
+        },
+        "clinical_recommendations": {
+            "neuropathy": {
+                "priority": "LOW",
+                "recommendations": [
+                    "Routine annual foot examination and sensory testing."
+                ]
+            },
+            "nephropathy": {
+                "priority": "LOW",
+                "recommendations": [
+                    "Annual serum creatinine and eGFR monitoring."
+                ]
+            }
+        }
+    }
+}
